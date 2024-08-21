@@ -7,7 +7,11 @@
     };
     flash = {
         name: 'Clark Kent',
-        age: 60,
-        powers: ['Super fuerza']
+        // age: 60,
+        powers: ['Super fuerza'],
+        // getNombres(){
+        //     return this.name;
+        // }
     };
+    console.log(flash);
 })();
