@@ -11,3 +11,4 @@
     const name = fullName('yuri', 'rojas', true);
     console.log({ name });
 })();
+//# sourceMappingURL=args-default.js.map

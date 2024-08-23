@@ -13,3 +13,4 @@
     console.log({ flash });
     console.log({ superMan });
 })();
+//# sourceMappingURL=objects.js.map

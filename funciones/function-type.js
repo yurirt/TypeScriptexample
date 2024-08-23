@@ -15,3 +15,4 @@
     myFunction = saveTheWold;
     console.log(myFunction());
 })();
+//# sourceMappingURL=function-type.js.map

@@ -33,12 +33,15 @@
         poder: "psiquico",
         estatura: 1.78
     };
+    console.log(charles);
     const apocalipsis = {
         lider: true,
         miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"]
     };
+    console.log(apocalipsis);
     // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
     let mystique;
     mystique = charles;
     mystique = apocalipsis;
 })();
+//# sourceMappingURL=app-4.js.map

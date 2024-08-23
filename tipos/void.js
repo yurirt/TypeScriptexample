@@ -10,3 +10,4 @@
     console.log(a);
     console.log(callSuperman);
 })();
+//# sourceMappingURL=void.js.map

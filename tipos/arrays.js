@@ -8,3 +8,4 @@
     console.log(villians);
     villians.forEach(v => console.log(v.toUpperCase()));
 })();
+//# sourceMappingURL=arrays.js.map
