@@ -25,4 +25,15 @@
 
     printAvengers(avengers);
 
+
+    const avengersArr: string[] = ['Cap. América','Ironman','Hulk'];
+
+    const ironman = avengersArr[1];
+
+    console.log({ironman});
+
+    const [capi,ironman2,] = avengersArr;
+
+    console.log({ironman2, capi});
+
 })()
