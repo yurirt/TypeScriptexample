@@ -41,11 +41,11 @@
 
     }
 
-    let wolverine: Xmen = new Xmen('Wolverine','Logan', true);
+    // let wolverine: Xmen = new Xmen('Wolverine','Logan', true);
 
     // console.log( wolverine.fullName);
 
-    wolverine.fullName = 'yu';
+    // wolverine.fullName = 'yu';
 
     // console.log( wolverine.name );
 
