@@ -52,4 +52,10 @@
         }
     };
 })();
+(() => {
+    let addTwoNumbersFuction;
+    addTwoNumbersFuction = (a, b) => {
+        return 10;
+    };
+})();
 //# sourceMappingURL=main.js.map
