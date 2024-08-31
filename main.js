@@ -22,6 +22,9 @@
             id: 125,
             zip: 'KY2 SUD',
             city: 'Ottawa'
+        },
+        getFullAdress() {
+            return this.address.city;
         }
     };
     const client2 = {
@@ -31,6 +34,9 @@
             city: 'Toronto',
             id: 120,
             zip: 'K2S U2A'
+        },
+        getFullAdress(id) {
+            return this.address.city;
         }
     };
 })();
