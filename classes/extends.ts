@@ -24,6 +24,17 @@
             console.log('Constructor xMen llamado');
         }
 
+        get fullName () {
+            return `${ this.name } - ${ this.realName }`
+        }
+        set fullName (name: string){
+
+            if(name.length < 3){
+                throw new Error('El nombre debe de ser de más de 3 carácteres');
+            }
+            this.name = name;
+        }
+
         getFullNameDesdeXmen() {
             console.log( super.getFullName() );
         }
@@ -32,8 +43,12 @@
 
     let wolverine: Xmen = new Xmen('Wolverine','Logan', true);
 
-    console.log( wolverine );
+    // console.log( wolverine.fullName);
 
-    wolverine.getFullNameDesdeXmen();
+    wolverine.fullName = 'yu';
+
+    // console.log( wolverine.name );
+
+    // wolverine.getFullNameDesdeXmen();
 
 })()
